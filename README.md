@@ -28,5 +28,6 @@
 * rollout: `argocd app patch-resource blue-green --kind Rollout --resource-name blue-green-helm-guestbook --patch '{ "status": { "verifyingPreview": false } }' --patch-type 'application/merge-patch+json'`
 
 # References
+1. [IBM Blue-Green Deployment](https://www.ibm.com/cloud/garage/dte/tutorial/blue-green-zero-downtime-continuous-deployment-ibm-urbancode-and-ibm-cloud-private)
 1. [Argo Rollout Installation](https://github.com/argoproj/argo-rollouts#installation)
 1. [Argo CD Blue-green Sample](https://github.com/argoproj/argocd-example-apps/tree/master/blue-green)
